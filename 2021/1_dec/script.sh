@@ -4,7 +4,8 @@
 
 mkdir -p work
 wget https://s6cc09bec31deaeb6.jimcontent.com/download/version/1638217360/module/12930298726/name/geschenk.zip -O work/geschenk.zip -q
-echo "Downloaded: geschenk.zip"
+echo 'Downloaded: geschenk.zip'
+
 cd work
 
 COUNT=0
@@ -26,10 +27,10 @@ done
 PW=$(cat $FILE_NAME)
 
 echo
-echo "----------------------------------------------"
-echo "File found!"
+echo '----------------------------------------------'
+echo 'File found!'
 echo "Unpacked \"${COUNT}\" archives."
 echo "Filename: \"${FILE_NAME}\""
-echo "----------------------------------------------"
+echo '----------------------------------------------'
 echo "The Password is \"${PW}\""
-echo "----------------------------------------------"
+echo '----------------------------------------------'

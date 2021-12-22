@@ -5,7 +5,7 @@ ZIPS='2021'
 
 mkdir -p work
 cd work
-echo "DiesIstDasPasswort123" > geschenk.txt
+echo 'DiesIstDasPasswort123' > geschenk.txt
 
 COUNT=0
 for I in $(seq 1 $ZIPS); do
@@ -20,8 +20,8 @@ LAST_FILE=$(ls)
 mv $LAST_FILE geschenk.zip
 
 echo
-echo "----------------------------------------------"
-echo "File zipped!"
+echo '----------------------------------------------'
+echo 'File zipped!'
 echo "Zipped \"${COUNT}\" times."
-echo "Filename: geschenk.zip"
-echo "----------------------------------------------"
+echo 'Filename: geschenk.zip'
+echo '----------------------------------------------'
